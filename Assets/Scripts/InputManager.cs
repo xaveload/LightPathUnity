@@ -30,7 +30,7 @@ public class InputManager : MonoBehaviour
     {
         CharMovement();
         CharRotation();
-        ActiveSkill();
+        ActivateSkill_1();
     }
 
     
@@ -84,7 +84,7 @@ public class InputManager : MonoBehaviour
     }
 
 
-    void ActiveSkill()
+    void ActivateSkill_1()
     {
         if (Input.GetKeyDown("space"))
         {

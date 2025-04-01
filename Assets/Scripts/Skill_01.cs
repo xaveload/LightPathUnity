@@ -9,10 +9,10 @@ public class Skill_01 : MonoBehaviour
 {
 
     public float skillTime;
+    [SerializeField] private float speed = 5.5f;
 
     private ParticleSystem ps;
 
-    int speed = 5;
     float timer = 0f;
     bool moveTrigger = false;
     bool activeTrigger = false;
